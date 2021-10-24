@@ -1,0 +1,41 @@
+.container-1 {
+    background-color:darkgray;
+    width: 700px;
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box {
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100px;
+    height: 80px;
+    border: 1px solid blue;
+}
+
+.text {
+    display: flex;
+    background-color: yellow;
+    width: 100px;
+    height: auto;
+    
+    
+}
+
+.text span {
+    text-transform: uppercase;
+    
+}
+
+.image {
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+    width: 100px;
+    height: 80px;
+    background-color: red;
+}
