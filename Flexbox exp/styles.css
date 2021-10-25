@@ -41,9 +41,16 @@
 .image {
     
     align-self: flex-end;
-    background-image: url(./greenman.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
+    /*background-image: url(./greenman.jpg);*/
+    
+    
     background-color: rgb(123, 255, 0);
+    
+}
+
+.image img {
+    mix-blend-mode: multiply;
+    height: 50px;
+    
     
 }
