@@ -8,8 +8,6 @@
     
 }
 
-
-
 .box {
     display: flex;
     justify-content: flex-end;
@@ -41,10 +39,11 @@
 }
 
 .image {
-    align-self: flex-end;
-
     
-    width: 100px;
-    height: 80px;
-    background-color: red;
+    align-self: flex-end;
+    background-image: url(./greenman.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(123, 255, 0);
+    
 }
